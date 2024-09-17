@@ -25,7 +25,7 @@ performing the three experiment phases. The experiment phases are shown below:
 ### Running in Docker
 
 Docker compose is set up to start database and frontend.
-
+- make up
 ## Problems
 
 ### backend endpoint is hardcoded
