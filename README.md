@@ -22,6 +22,15 @@ performing the three experiment phases. The experiment phases are shown below:
    backend [python server](https://github.com/dimitrymindlin/Measuring-User-Understanding-in-Dialogue-based-XAI-Systems.git)
 3. npm run dev
 
+## Settings
+
+- create `.env` (see `.env.template`) file in root directory and set
+    - PUBLIC_TEACH_TEST_CYCLES=10
+    - PUBLIC_END_TEST_CYCLES=10
+    - PUBLIC_DATASET_NAME=adult # Dataset Name
+    - PUBLIC_A_B_SELECTION=interactive # Condition to run (static or interactive)
+    - database connection info...
+
 ### Running in Docker
 
 Docker compose is set up to start database and frontend.
